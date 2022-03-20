@@ -10,6 +10,7 @@ import com.bumptech.glide.Glide
 import com.codepath.apps.restclienttemplate.models.Tweet
 
 
+
 class TweetsAdapter(val tweets: ArrayList<Tweet>) : RecyclerView.Adapter<TweetsAdapter.ViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TweetsAdapter.ViewHolder {
         val context = parent.context
